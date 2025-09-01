@@ -41,24 +41,24 @@ header nav ul li a:hover {
   color: #f4c542;
 }
 
-/* Hero Section */
+/* Main Section */
 .hero img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Academy */
+/* Academy Section */
 .cards-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px; /* مسافة أكبر بين الكروت */
+  gap: 40px; 
   padding: 60px 0;
   flex-wrap: wrap;
   position: relative;
-  margin-top: -100px; /* نخلي الكروت طالعة لفوق */
-  z-index: 10; /* عشان تبقى فوق الخلفية */
+  margin-top: -100px; 
+  z-index: 10;
 }
 
 .card {
@@ -87,7 +87,7 @@ header nav ul li a:hover {
 }
 
 
-/* About */
+/* About Section */
 .about {
   padding: 60px 50px;
   background: #fff;
@@ -115,13 +115,12 @@ header nav ul li a:hover {
 .about-content .about-img img {
   width: 800PX;
   height: 280px;
-  /* max-width: 600px; */
   border-radius: 10px;
   margin-left: 0px;
   margin-right: 120px;
 }
 
-/* Schedule */
+/* Schedule Section */
 .schedule {
   text-align: center;
   padding: 40px 0;
@@ -166,7 +165,7 @@ header nav ul li a:hover {
 }
 
 
-/* News */
+/* News Section */
 .news {
   padding: 60px 50px;
 }
@@ -208,7 +207,7 @@ header nav ul li a:hover {
   color: #222;
 }
 
-/* Video */
+/* Video Section */
 .video-section {
   display: flex;
   justify-content: start;
@@ -242,7 +241,7 @@ header nav ul li a:hover {
 }
 
 
-/* Map */
+/* Map Section */
 .map {
   margin: 5px;
 
